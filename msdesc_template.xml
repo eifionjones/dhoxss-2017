@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title><!--title for this document - can use classmark--></title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><!--your project name or institution--></publisher>
+
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <!--how the manuscript is identified-->
+                    <msIdentifier>
+
+                        <!--location and classmark-->
+                        <institution><!--institution where held--></institution>
+                        <repository><!--repository where held--></repository>
+                        <idno><!--classmark--></idno>
+
+                    </msIdentifier>
+                    
+                    <head></head>
+
+                    <!--what does the manuscript contain-->
+                    <msContents>
+
+                        <summary>
+                            <!--Any general points about the manuscript-->
+                        </summary>
+
+                        <!--msItems represent the texts in the manuscript. You can have as many of these as you like, and they can nest heirarchically-->
+                        <!--the first one gives details of the main text, if there is one-->
+                        <msItem>
+                            
+                            <title><!--title--></title>
+                            <title type="alternative"><!--alternative title--></title>
+                            <title type="descriptive"><!--descriptive title--></title>
+
+                            <textLang mainLang="xxx"><!--language(s) of text - put three letter language code in mainLang (and otherLangs if appropriate)--></textLang>
+
+                            <author>
+                                <!--example of an author-->
+                                <name type="person" subtype="aut"></name>
+                            </author>
+                            
+                            <respStmt>
+                                <resp>editor</resp>
+                                <!--example of an editor-->
+                                <name type="person" subtype="edt"></name>
+                                
+                            </respStmt>
+                            
+                            <!--the contents of the manuscript-->
+                            <msItem>
+                                <title></title>
+                            </msItem>
+                            <msItem>
+                                <title></title>
+                            </msItem>
+                        </msItem>
+
+                    </msContents>
+
+
+                    <!--the physical description of the manuscript starts here-->
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc>
+                                <support>
+                                    <material><!--what it's made of--></material>
+                                </support>
+                                <extent><!--how big it is-->
+                                    
+                                    <dimensions type="leaf" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                    <dimensions type="written" unit="mm">
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!--details of foliation here-->
+                                </foliation>
+                                
+                                <collation>
+                                    <!--details of collation here-->
+                                </collation>
+                                
+                                
+                                <condition>
+                                    <!--the manuscript's condition-->
+                                </condition>
+                                
+                                
+                                
+                            </supportDesc>
+
+                            <layoutDesc>
+                                <layout>
+                                    <p><!--how it's layed out on the page--></p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote scope="major" script="other">
+                                <p><!--the script it's written in (plus any more details)--></p>
+                            </handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <!--decoration - one decoNote per type of decoration-->
+                            <decoNote><p/></decoNote>
+                            <decoNote><p/></decoNote>
+
+                            
+                        </decoDesc>
+                        
+                        <!--Details here of corrections, additions, marginalia etc.-->
+                        <additions></additions>
+                        
+
+                        <bindingDesc>
+                            <p><!--  Can include for example <date/>, <material/>, <decoNote/> and paragraph on <condition> if appropriate.--></p>
+                            
+                        </bindingDesc>
+
+                    </physDesc>
+
+
+                    <!--the history of the manuscript-->
+                    <history>
+                        <!--Covers Origin, provenance and acquisition. Sample given here:-->
+
+                        <origin>
+                            <origDate calendar="Gregorian" when="0799"><!--when it was created - can use notBefore and notAfter attributes if this is a range--></origDate>
+                            <origPlace><!--where it comes from--></origPlace>
+                        </origin>
+                        <provenance><!-- who had it first, how it got here, and all points inbetween--></provenance>
+                    </history>
+
+                    <!--administrative and bibliography information-->
+                    <additional>
+                        <adminInfo>
+                            
+                            <availability status="restricted">
+                                <p><!--conditions for consulting the actual manuscript--></p>
+                            </availability>
+                            <note/>
+                        </adminInfo>
+
+
+                        <!--bibliography-->
+                        <listBibl>
+                            
+
+                            <bibl><!--bibliographic item--></bibl>
+                            <bibl><!--bibliographic item--></bibl>
+                            <bibl><!--bibliographic item--></bibl>
+                           
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div></div>
+        </body>
+    </text>
+
+</TEI>

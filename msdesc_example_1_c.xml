@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+
+                <title>Ii.3.33</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><!--your project name or institution--></publisher>
+
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <!--how the manuscript is identified-->
+                    <msIdentifier>
+
+                        <!--location and classmark-->
+                        <institution>University of Cambridge</institution>
+                        <repository>Cambridge University Library</repository>
+                        <idno>Ii.3.33</idno>
+
+                    </msIdentifier>
+
+                    <head>Gregory the Great, <title>Registrum epistolarum</title>
+                    </head>
+
+                    <!--what does the manuscript contain-->
+                    <msContents>
+
+                        <summary> M. Gullick suggests that the scribe was continental and that the
+                            manuscript derives not from Christ Church, but from St Augustine’s,
+                            Canterbury, the style of the initials on the opening leaves being
+                            closest to those of Durham Cathedral Library MS B.II.16. At the end of
+                            quire 12 is the contemporary note ‘medietas libri’. The manuscript has
+                            the following additions (17th century): Ps.-Jerome, De nativitate Mariae
+                            (1-3); letters of Pope Paschal II and Anselm of Canterbury (194v-196). </summary>
+
+                        <!--msItems represent the texts in the manuscript. You can have as many of these as you like, and they can nest heirarchically-->
+                        <!--the first one gives details of the main text, if there is one-->
+                        <msItem>
+
+                            <title>Registrum epistolarum</title>
+
+
+                            <textLang mainLang="lat">Latin</textLang>
+
+                            <author>
+                                <!--example of an author-->
+                                <name type="person" subtype="aut">Gregory the Great </name>
+                            </author>
+
+
+
+                            <!--the contents of the manuscript-->
+                            <msItem>
+                                <title>Gregory the Great, Registrum epistolarum (5-194)</title>
+                            </msItem>
+                            <msItem>
+                                <title>Conversio Berengarii ab haeresi sua (194-194v) </title>
+                            </msItem>
+                        </msItem>
+
+                    </msContents>
+
+
+                    <!--the physical description of the manuscript starts here-->
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                                    <material>Paper</material>
+                                </support>
+                                <extent><!--how big it is-->
+                                    <dimensions type="leaf" unit="mm">
+                                        <height>310</height>
+                                        <width>205</width>
+                                    </dimensions>
+                                    <dimensions type="written" unit="mm">
+                                        <height>243</height>
+                                        <width>145</width>
+                                    </dimensions>
+                                </extent>
+
+
+
+
+                            </supportDesc>
+
+                            <layoutDesc>
+                                <layout>
+                                    <p>39-41 lines, ruled in plummet, above top line, rubrics, quire
+                                        signatures, 2<hi rend="superscript">o</hi>
+                                        <hi rend="italic">fol potestis exorare (6)</hi></p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote scope="major" script="other">
+                                <p>Caroline miniscule</p>
+                            </handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <!--decoration - one decoNote per type of decoration-->
+                            <decoNote><p> Inhabited initials. Two large (6-8 line) and two small
+                                    (3-line) painted initials in bright blue, red and green,
+                                    enclosing human figures or a bust, to Symbolum fidei and first
+                                    three letters (5, 5v, rubbed); 3-line red penwork initial
+                                    framing human face (8v) </p></decoNote>
+                            <decoNote><p> Ornamental and minor initials. Green or red penwork
+                                    initials (3-15 lines), filled with delicate arabesque
+                                    ornamentation in same colour as main body of letter, except most
+                                    elaborate initial S to bk VI (13 lines, 75v) whose green foliage
+                                    is decorated with blue and red flowers and berries. The larger
+                                    initials introduce some books (e.g. 23v, 57, 114, 140), small
+                                    ones numerous letters (e.g. 38, 98); remaining letters receive
+                                    3-line green or red initials with occasional arabesque finials;
+                                    blue and red initials (2-4 lines) on red/blue/green/yellow
+                                    ground at 5v-6v only. </p></decoNote>
+
+                        </decoDesc>
+
+
+                        <bindingDesc>
+                            <p>Full blind-tooled calf with two rectangular frames and six fleurons
+                                (16th-17th century; rebacked, University Library, 1950).</p>
+
+                        </bindingDesc>
+
+                    </physDesc>
+
+
+                    <!--the history of the manuscript-->
+                    <history>
+                        <!--Covers Origin, provenance and acquisition. Sample given here:-->
+
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1079" notAfter="1101">1079-1101</origDate>
+                            <origPlace>England, Canterbury</origPlace>
+                        </origin>
+                        <provenance>St Augustine’s, Canterbury(?); Christ Church, Canterbury (no 152
+                            in Eastry’s catalogue of 14th century; no. 128 in Ingram’s list of 1508;
+                            see M.R. James, <hi rend="italic">Canterbury and Dover</hi>, pp. 33, 157, 507, 514); apparently
+                            entered University Library between 1583 and 1600 (see Ker, ‘Norwich
+                            Cathedral Priory’, p. 3; T. James, <hi rend="italic">Ecloga</hi>, no. 121 (number appears on
+                            front cover and on 1)).</provenance>
+                    </history>
+
+                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div/>
+        </body>
+    </text>
+
+</TEI>
