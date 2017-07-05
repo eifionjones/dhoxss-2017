@@ -31,11 +31,11 @@
                         <summary> M. Gullick suggests that the scribe was continental and that the
                             manuscript derives not from Christ Church, but from St Augustine’s,
                             Canterbury, the style of the initials on the opening leaves being
-                            closest to those of Durham Cathedral Library MS B.II.16. At the end of
+                            closest to those of <orgName>Durham Cathedral Library</orgName> MS B.II.16. At the end of
                             quire 12 is the contemporary note ‘medietas libri’. The manuscript has
                             the following additions (17th century): Ps.-Jerome, De nativitate Mariae
-                            (<locus from="1" to="3">1-3</locus>); letters of <name type="person">Pope Paschal II</name>
-                            and <name type="person">Anselm of Canterbury</name> (<locus from="194v" to="196">194v-196</locus>). </summary>
+                            (<locus from="1" to="3">1-3</locus>); letters of <persName>Pope Paschal II</persName>
+                            and <persName>Anselm of Canterbury</persName> (<locus from="194v" to="196">194v-196</locus>). </summary>
 
                         <!--msItems represent the texts in the manuscript. You can have as many of these as you like, and they can nest heirarchically-->
                         <!--the first one gives details of the main text, if there is one-->
@@ -48,7 +48,7 @@
 
                             <author>
                                 <!--example of an author-->
-                                <name type="person" subtype="aut">Gregory the Great </name>
+                                <persName>Gregory the Great </persName>
                             </author>
 
 

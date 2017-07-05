@@ -21,7 +21,7 @@
                         <idno>Ii.3.33</idno>
 
                     </msIdentifier>
-
+                    <!--general header for the manuscript-->
                     <head>Gregory the Great, <title>Registrum epistolarum</title>
                     </head>
 
@@ -47,7 +47,7 @@
 
                             <author>
                                 <!--example of an author-->
-                                <name type="person" subtype="aut">Gregory the Great </name>
+                                <persName>Gregory the Great </persName>
                             </author>
 
 
